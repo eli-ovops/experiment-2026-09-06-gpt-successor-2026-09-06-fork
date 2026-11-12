@@ -1,0 +1,32 @@
+Hi Elieza,
+
+Case 15125642 — I performed one fresh test on September 19 and am attaching the sanitized HAR, request details, and a cropped frame extracted from the recording.
+
+Test details:
+- September 19, 2026, 16:36:57, Asia/Shanghai (UTC+8).
+- Main conversation request started at 08:36:57.555 UTC.
+- Chrome on macOS; a new chat; prompt "1", submitted once.
+- The current model label was "6 Pro". This is different from the model used in my historical report.
+- Conversation: https://chatgpt.com/c/6aae49a9-e7dc-83ee-b66f-fbc1183ff1d6
+- The page displayed "思考了 47s" (thought for 47s) before the completed short clarification answer. This is the UI's thinking-duration label, not an independently measured time to first response.
+- The title was 确认数字含义. The mixed-script title issue did not recur in this particular test.
+- No VPN, proxy, or account settings were changed.
+
+Main HAR request:
+- /backend-api/f/conversation, HTTP 200
+- x-oai-request-id: 71703edd-d664-44bc-bd2f-b4a4aed5b9e5
+- cf-ray: a3d74404ef32fdeb-SIN
+- Waiting: 5804.004 ms; total request duration: 9981.060 ms.
+These request timings do not represent the full UI thinking period or establish the cause of the delay.
+
+Recording limitation: on review, the recording captured the Codex window covering the ChatGPT conversation, with the Chrome Network panel visible at the side. It therefore does not show the complete prompt-to-response sequence you requested. I am not presenting it as a valid latency video. The attached cropped frame only documents the visible Network panel and is not proof of response delay. I am omitting the full recording because it contains unrelated workspace information.
+
+The attached HAR retains 96 entries, timestamps, statuses, timings, and selected diagnostic headers. For privacy, request/response bodies, cookies, token-bearing and other non-allowlisted headers, query values, unrelated identifiers, and extension metadata were removed.
+
+Please correlate the request ID and exact timestamp with your server-side logs and review the evidence already provided in this case. If the missing video prevents a specific part of your investigation, explain precisely what remains unanswerable from the existing evidence and this trace before asking me to repeat the process again.
+
+I have spent weeks providing evidence and am extremely dissatisfied with the repeated collection cycle without a substantive resolution. Please provide a concrete technical assessment, the next action and expected update date, and have an authorized supervisor address compensation for the affected period. My subscription was purchased through Apple, and I want to continue using Pro. I am requesting remediation and compensation that preserve my Pro access, not cancellation or a refund that terminates it.
+
+Please confirm receipt of the three attachments and address these points directly.
+
+Thank you.

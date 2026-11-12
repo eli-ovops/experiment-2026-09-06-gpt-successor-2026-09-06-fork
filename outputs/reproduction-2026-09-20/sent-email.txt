@@ -1,0 +1,16 @@
+Hi Elieza,
+
+Case 15125642 — attached is the short screen recording you requested. It shows the prompt "1" being submitted, the uninterrupted waiting period, and the answer appearing.
+
+This is a NEW reproduction on September 20, 2026, at approximately 14:39:24 Asia/Shanghai (UTC+8), not the September 19 occurrence associated with the previously supplied HAR.
+Conversation: https://chatgpt.com/c/6aaf7f9c-c7c4-83ee-aab1-63ac1dd15a5e
+Model label: 6 Pro.
+The UI displayed "思考了 44s" ("thought for 44s") and answered "在。你想让我帮你处理什么？" This label is the application's reported thinking duration, not an independently measured time to first response.
+
+The 63-second MP4 is at original speed. Only the lead-in and trailing footage were trimmed; the prompt-to-response interval is continuous. The frame was cropped to the conversation and unrelated suggestion text was masked for privacy. No part of the submission, waiting indicator, or answer was removed. The source had no audio.
+
+As you confirmed, I am not resending the HAR, request details, screenshot, or previous test information.
+
+Please confirm that the video is accessible and satisfies the remaining recording requirement. I need a substantive technical assessment and a concrete next-update date. Please also address my outstanding compensation request while preserving my Pro subscription and access.
+
+Thank you.

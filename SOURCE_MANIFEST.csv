@@ -1,0 +1,11 @@
+path,bytes,sha256
+HANDOFF-2026-09-23.md,4227,1a32fd5c5aa8287d9f34a677c3d5f3bad5da0cc5712f1b3faaf3efdbaff96650
+outputs/complaint-evidence-2026-09-11.md,2371,c8a7352cf54daf9d53c8114f3aa551fcfd3918f44e6d5c6b58c2f80b0d05ccb0
+outputs/reproduction-2026-09-19/README.md,2560,1764537c838e443f408cee4e44a1a951963f14c6d12bbce9d54a80c2c1997afa
+outputs/reproduction-2026-09-19/request-details.json,706,ba91aada917e538810316f1e0f608136165693ad270a28f9a061a018bcacda4c
+outputs/reproduction-2026-09-19/send-receipt.json,366,a34f983070036e1959652792242730614471ebefade7d3555270beacacacfd1c
+outputs/reproduction-2026-09-19/sent-email.txt,2902,4fe67e75609ae4ae148d5cd422c276d28f749d77cf33cab15c497bb4e023e8c5
+outputs/reproduction-2026-09-20/README.md,1096,c356b3a49f1c0541f2695432b7562347e5e9252012789d3c1370f210309afc9f
+outputs/reproduction-2026-09-20/send-receipt.json,219,b58ac8a4775eef6e2dee535893baff57c87dac3fdab6acf1edc4eb2ea1362674
+outputs/reproduction-2026-09-20/sent-email.txt,1401,9344a8df8004f79e861fb10731936cbadeaaaf23fa7e057246bd9e7a852b39dc
+work/reproduction-2026-09-19/sanitize.py,2535,9692e17deeae9777d42e417f19040d9e4d8f93fbd805d01d01d60e348ce25a38

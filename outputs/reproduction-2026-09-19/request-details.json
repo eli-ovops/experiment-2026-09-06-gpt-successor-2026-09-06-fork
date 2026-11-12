@@ -1,0 +1,31 @@
+[
+  {
+    "startUTC": "2026-09-19T08:36:57.555Z",
+    "status": 200,
+    "totalMs": 9981.06000002008,
+    "timings": {
+      "blocked": 0.7510000193528831,
+      "dns": -1,
+      "ssl": -1,
+      "connect": -1,
+      "send": 0.383,
+      "wait": 5804.003999976724,
+      "receive": 4175.922000024002,
+      "_blocked_queueing": 0.5300000193528831,
+      "_workerStart": -1,
+      "_workerReady": -1,
+      "_workerFetchStart": -1,
+      "_workerRespondWithSettled": -1
+    },
+    "requestIdentifiers": [
+      {
+        "name": "cf-ray",
+        "value": "a3d74404ef32fdeb-SIN"
+      },
+      {
+        "name": "x-oai-request-id",
+        "value": "71703edd-d664-44bc-bd2f-b4a4aed5b9e5"
+      }
+    ]
+  }
+]

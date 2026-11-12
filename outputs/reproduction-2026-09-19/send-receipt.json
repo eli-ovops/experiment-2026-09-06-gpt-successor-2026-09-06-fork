@@ -1,0 +1,21 @@
+{
+  "id": "1a0b8d8367da151f",
+  "thread_id": "1a0650017f295d7a",
+  "label_ids": [
+    "SENT"
+  ],
+  "attachments": [
+    {
+      "filename": "chatgpt-2026-09-19-sanitized.har",
+      "size": 196802
+    },
+    {
+      "filename": "network-panel-extracted.png",
+      "size": 279432
+    },
+    {
+      "filename": "request-details.json",
+      "size": 706
+    }
+  ]
+}
